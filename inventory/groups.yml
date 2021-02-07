@@ -64,4 +64,5 @@ IOS:
   password: cisco
   platform: ios
   port: 22
-  
+  data:
+    ssh_key_user: dev_user1

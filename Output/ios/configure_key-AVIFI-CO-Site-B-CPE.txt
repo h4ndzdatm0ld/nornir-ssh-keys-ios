@@ -1,0 +1,59 @@
+
+                        ^
+% Invalid input detected at '^' marker.
+
+                     ^
+% Invalid input detected at '^' marker.
+
+                            ^
+% Invalid input detected at '^' marker.
+
+                     ^
+% Invalid input detected at '^' marker.
+                            ^
+% Invalid input detected at '^' marker.
+                     ^
+% Invalid input detected at '^' marker.
+
+Interface                  IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0         unassigned      YES NVRAM  administratively down down    
+GigabitEthernet0/1         192.168.0.126   YES DHCP   up                    up      
+GigabitEthernet0/2         unassigned      YES NVRAM  administratively down down    
+GigabitEthernet0/3         unassigned      YES NVRAM  administratively down down    configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+AVIFI-CO-Site-B-CPE(config)#show ip int brief
+                              ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-B-CPE(config)#end
+AVIFI-CO-Site-B-CPE#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+AVIFI-CO-Site-B-CPE(config)#ip ssh pubkey-chain
+AVIFI-CO-Site-B-CPE(conf-ssh-pubkey)#username dev_user1
+AVIFI-CO-Site-B-CPE(conf-ssh-pubkey-user)#key-string
+AVIFI-CO-Site-B-CPE(conf-ssh-pubkey-data)#b''
+AVIFI-CO-Site-B-CPE(conf-ssh-pubkey-data)#exit
+%SSH: Failed to decode the Key Value
+AVIFI-CO-Site-B-CPE(conf-ssh-pubkey-user)#exit
+AVIFI-CO-Site-B-CPE(conf-ssh-pubkey)#end
+AVIFI-CO-Site-B-CPE#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+AVIFI-CO-Site-B-CPE(config)#ip ssh pubkey-chain
+AVIFI-CO-Site-B-CPE(conf-ssh-pubkey)#username dev_user1
+AVIFI-CO-Site-B-CPE(conf-ssh-pubkey-user)#key-string
+AVIFI-CO-Site-B-CPE(conf-ssh-pubkey-data)#b''
+AVIFI-CO-Site-B-CPE(conf-ssh-pubkey-data)#exit
+%SSH: Failed to decode the Key Value
+AVIFI-CO-Site-B-CPE(conf-ssh-pubkey-user)#exit
+AVIFI-CO-Site-B-CPE(conf-ssh-pubkey)#end
+AVIFI-CO-Site-B-CPE#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+AVIFI-CO-Site-B-CPE(config)#ip ssh pubkey-chain
+AVIFI-CO-Site-B-CPE(conf-ssh-pubkey)#username dev_user1
+AVIFI-CO-Site-B-CPE(conf-ssh-pubkey-user)#key-string
+AVIFI-CO-Site-B-CPE(conf-ssh-pubkey-data)#b''
+AVIFI-CO-Site-B-CPE(conf-ssh-pubkey-data)#exit
+%SSH: Failed to decode the Key Value
+AVIFI-CO-Site-B-CPE(conf-ssh-pubkey-user)#exit
+AVIFI-CO-Site-B-CPE(conf-ssh-pubkey)#end
+AVIFI-CO-Site-B-CPE#Enter configuration commands, one per line.  End with CNTL/Z.b'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDBYrJdRVbKAxoBGA2PZqyep+JPUuHbO2gT\n9PII7nLkQ53PlYjdPpaI95EBgK6T9M+woV+9Ycsast2cR5D0J4ZVsZ+YX2+0bi6gsTNBhFCQ\n7iikalu/XYq7gXm6ow55ee10ANr6WHuORTWIc0zo4hYRV/EQtCPiBx/i9RCJE4FVyzEZTC2j\nZ/562GZUGUAmFH0WztGbNZps0FIBs%SSH: Only ssh-rsa type is supported

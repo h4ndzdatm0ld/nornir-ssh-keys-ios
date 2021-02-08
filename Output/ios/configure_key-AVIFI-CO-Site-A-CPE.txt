@@ -1,1 +1,341 @@
-Enter configuration commands, one per line.  End with CNTL/Z.b'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDBYrJdRVbKAxoBGA2PZqyep+JPUuHbO2gT\n9PII7nLkQ53PlYjdPpaI95EBgK6T9M+woV+9Ycsast2cR5D0J4ZVsZ+YX2+0bi6gsTNBhFCQ\n7iikalu/XYq7gXm6ow55ee10ANr6WHuORTWIc0zo4hYRV/EQtCPiBx/i9RCJE4FVyzEZTC2j\nZ/562GZUGUAmFH0WztGbNZps0FIBs%SSH: Only ssh-rsa type is supported
+Enter configuration commands, one per line.  End with CNTL/Z.b'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDBYrJdRVbKAxoBGA2PZqyep+JPUuHbO2gT\n9PII7nLkQ53PlYjdPpaI95EBgK6T9M+woV+9Ycsast2cR5D0J4ZVsZ+YX2+0bi6gsTNBhFCQ\n7iikalu/XYq7gXm6ow55ee10ANr6WHuORTWIc0zo4hYRV/EQtCPiBx/i9RCJE4FVyzEZTC2j\nZ/562GZUGUAmFH0WztGbNZps0FIBs%SSH: Only ssh-rsa type is supportedEnter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.                               ^
+% Invalid input detected at '^' marker.
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+                              ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+                             ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+                               ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+                            ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+                             ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+                              ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+                              ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79
+                             ^
+% Invalid input detected at '^' marker.
+Enter configuration commands, one per line.  End with CNTL/Z.                                     ^
+% Invalid input detected at '^' marker.
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+                                      ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+                                     ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+                                     ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+                                     ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+                                     ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+                                     ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+                                     ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79
+                                     ^
+% Invalid input detected at '^' marker.
+Enter configuration commands, one per line.  End with CNTL/Z.                                                      ^
+% Invalid input detected at '^' marker.
+                               ^
+% Invalid input detected at '^' marker.
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+                              ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+                             ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+                               ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+                            ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+                             ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+                              ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+                              ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79
+                             ^
+% Invalid input detected at '^' marker.
+Enter configuration commands, one per line.  End with CNTL/Z.% Invalid Password length - must contain 1 to 25 characters. Password configuration failed                               ^
+% Invalid input detected at '^' marker.
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+                              ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+                             ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+                               ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+                            ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+                             ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+                              ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+                              ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79
+                             ^
+% Invalid input detected at '^' marker.
+Enter configuration commands, one per line.  End with CNTL/Z.% Invalid Password length - must contain 1 to 25 characters. Password configuration failed                               ^
+% Invalid input detected at '^' marker.
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+                              ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+                             ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+                               ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+                            ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+                             ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+                              ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+                              ^
+% Invalid input detected at '^' marker.
+
+AVIFI-CO-Site-A-CPE(config)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79
+                             ^
+% Invalid input detected at '^' marker.
+Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79
+AVIFI-CO-Site-A-CPE#enableEnter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ERROR: Can not have both a user password and a user secret.
+Please choose one or the other.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79
+AVIFI-CO-Site-A-CPE#
+AVIFI-CO-Site-A-CPE#
+AVIFI-CO-Site-A-CPE#enableEnter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79Enter configuration commands, one per line.  End with CNTL/Z.ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD5rYCieymqJF9dFI497GePcToFo2SMXp5P
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#VWJHAZRNs3NgAS2Uk1oRJHfWyM2fuKeeelWUf9ek8LDv09JLZo6/vd8xwQRMVHfc6qT2Dcv3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#MoPojPwidKA2zDLaE/tQsyFf/yR80oHvMAWYmfR7t+amMNuCb1m2VL64zWuIkPxOAovS9VeT
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#+q5wovrJ2C1tp/tNIAiMdw8AeiwXy/By74MW00ev2b+oZQoGaGigm9lswv5Quxfkwvi4e4bs
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#AToIxpL0nPCjNELtGKlfVZ+oc50eMEnu/+VGbK5sB6nhb9Wmga5K3rifffK902OYlNqGSZU/
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#Lie+2xv9h0Q0FzCvU1WTEuPMtJZenPG3/pv4ECr/cYBSKqVIcp84mGP29u1vhXOLp8c13eQ3
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#vcgL7+GlDlsDt78//6gNOyBIBdGgkVVxn7v0jmCCE+XUzxHpBq2VP2gdDPogcmCy/xVKwC5p
+AVIFI-CO-Site-A-CPE(conf-ssh-pubkey-data)#OtsdT67SG5vdlIBPzJhmLnKFWpytnGaf+LNV2e/Q3qFaP20= vscode@0a0233ce7d79

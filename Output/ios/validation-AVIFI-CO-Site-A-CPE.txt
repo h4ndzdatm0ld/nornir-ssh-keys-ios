@@ -1,3 +1,0 @@
-{'get_users': {'cisco': {'level': 15, 'password': '$1$uaYY$K5/dkzZcQWnmG9B5H9WZq.', 'sshkeys': ['ssh-rsa B0830BE89708DAD28464B812A8F03969 vscode@f6c2b2137525']}}}
-{'get_interfaces_ip': {'GigabitEthernet0/1': {'ipv4': {'192.168.0.58': {'prefix_length': 23}}}}}
-{'get_facts': {'uptime': 458820, 'vendor': 'Cisco', 'os_version': 'IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.8(3)M2, RELEASE SOFTWARE (fc2)', 'serial_number': '9SOXF7HE80YSH9D4ASRR9', 'model': 'IOSv', 'hostname': 'AVIFI-CO-Site-A-CPE', 'fqdn': 'AVIFI-CO-Site-A-CPE.admin-save.com', 'interface_list': ['GigabitEthernet0/0', 'GigabitEthernet0/1', 'GigabitEthernet0/2', 'GigabitEthernet0/3']}}

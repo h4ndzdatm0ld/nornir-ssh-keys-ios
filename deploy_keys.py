@@ -8,6 +8,7 @@ import subprocess
 import getpass
 from nornir_utils.plugins.tasks.files import write_file
 from jaraco.docker import is_docker
+from sys import platform
 
 __author__ = "Hugo Tinoco"
 __email__ = "hugotinoco@icloud.com"
@@ -39,17 +40,25 @@ def subprocess_keys():
 
     if is_docker:
         key = subprocess.run(
-            ["fold", "-b", "-w 72", f"/home/{username}/.ssh/id_rsa.pub"],
+            ["fold", "-b", "-w 72", f"/home/cisco/.ssh/id_rsa.pub"],
             capture_output=True,
         )
-    else:
+    elif platform == "linux" or platform == "linux2" or platform == "darwin":
         key = subprocess.run(
             ["fold", "-b", "-w 72", f"/Users/{username}/.ssh/id_rsa.pub"],
             capture_output=True,
         )
+    else:
+        pass  # This needs to be tested on a Win machine.
+
     # The key is returned as a bytestring, we must decode it to a str.
-    key_output = key.stdout
-    return str(key_output.decode("utf-8"))
+    final_key = key.stdout.decode("utf-8")
+    # Quick check to ensure the key looks good.
+    assert final_key.startswith(
+        "ssh-rsa"
+    ), "SSH KEY Error, ensure 'id_rsa.pub' is present."
+    # All good, return the key.
+    return final_key
 
 
 def configure_key(task, folded_key: str):
@@ -69,24 +78,24 @@ def configure_key(task, folded_key: str):
 
     # Path to save output: This path will be generated.
     path = f"Output/{task.host.platform}"
-
-    # Store for future use in other tasks.
-    task.host["path"] = path
     createFolder(path)
 
-    for cmd in commands:
-        passwordless = task.run(
-            netmiko_send_command,
-            command_string=cmd,
-            use_timing=True,
-            delay_factor=1,
-        )
-        write_file(
-            task,
-            filename=f"{path}/{task.name}-{task.host}.txt",
-            content=str(passwordless.result),
-            append=True,
-        )
+    try:
+        for cmd in commands:
+            passwordless = task.run(
+                netmiko_send_command,
+                command_string=cmd,
+                use_timing=True,
+                delay_factor=1,
+            )
+            write_file(
+                task,
+                filename=f"{path}/{task.name}-{task.host}.txt",
+                content=str(passwordless.result),
+                append=True,
+            )
+    except Exception as e:
+        return e
 
 
 def validation(task):
@@ -100,20 +109,13 @@ def validation(task):
     for getter in getters:
         data = task.run(task=napalm_get, getters=[getter])
 
-        write_file(
-            task,
-            filename=f"{task.host['path']}/{task.name}-{task.host}.txt",
-            content=str(data.result) + "\n",
-            append=True,
-        )
-
     task.run(task=napalm_validate, src=f"compliance/sshkeys.yml")
 
 
 def main():
 
     print_result(cpe_routers.run(task=configure_key, folded_key=subprocess_keys()))
-    print_result(cpe_routers.run(task=validation))
+    # print_result(cpe_routers.run(task=validation))
 
 
 if __name__ == "__main__":

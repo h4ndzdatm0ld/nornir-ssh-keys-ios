@@ -1,9 +1,6 @@
 from nornir import InitNornir
 from nornir_netmiko.tasks import netmiko_send_command
-from nornir_netmiko.tasks import netmiko_send_config
 from nornir_utils.plugins.functions import print_result
-from nornir_utils.plugins.tasks.data import load_yaml
-from nornir_jinja2.plugins.tasks import template_file
 from nornir_napalm.plugins.tasks import napalm_validate
 from nornir_napalm.plugins.tasks import napalm_get
 import os
@@ -31,7 +28,9 @@ def createFolder(directory):
 
 def subprocess_keys():
     """Fold the ssh public key and store the contents. This is outside of Nornir, as we only
-    need to extract the ssh-key once for the entire runbook."""
+    need to extract the ssh-key once for the entire runbook. This specific function checks wether or not
+    this deployment is being processed from within a docker container. This was instumental for testing and development
+    in order to delete/create ssh keys freely."""
 
     # Extract Username:
     username = getpass.getuser()
@@ -54,7 +53,7 @@ def subprocess_keys():
 
 
 def configure_key(task, folded_key: str):
-    """ Deploy SSH Keys to our inventory. The folded_key is passed is as an arguement equal to the result of the subprocess_keys() fucntion.
+    """Deploy SSH Keys to our inventory. The folded_key is passed is as an arguement equal to the result of the subprocess_keys() fucntion.
     In a production environment, a user is most likely already configured on the devices."""
 
     commands = [
@@ -70,12 +69,15 @@ def configure_key(task, folded_key: str):
 
     # Path to save output: This path will be generated.
     path = f"Output/{task.host.platform}"
+
+    # Store for future use in other tasks.
+    task.host["path"] = path
     createFolder(path)
 
     for cmd in commands:
         passwordless = task.run(
             netmiko_send_command,
-            command_string=cmd, 
+            command_string=cmd,
             use_timing=True,
             delay_factor=1,
         )
@@ -89,7 +91,9 @@ def configure_key(task, folded_key: str):
 
 def validation(task):
     """Simple getters for documentation of hosts. This step will be performed via NAPALM using SSH KEYS authentication,
-    thus validating the SSH KEYS deployment. We will also do some compliance verification of facts to display ssh keys for users"""
+    thus validating the SSH KEYS deployment. At the time of this project, the SSH Keys returned from NAPALM get_users, seems to
+    have a bug and incorrectly returning a list items. This hinders our ability to sucessfully provide a proper SSH-Keys validation fully.
+    """
 
     getters = ["get_users", "get_interfaces_ip", "get_facts"]
 
@@ -98,18 +102,17 @@ def validation(task):
 
         write_file(
             task,
-            filename=f"Output/{task.name}-{task.host}.txt",
+            filename=f"{task.host['path']}/{task.name}-{task.host}.txt",
             content=str(data.result) + "\n",
             append=True,
         )
 
-        # Validate part of the SSH-KEY HASH is present.
-        if getter == 'get_users':
-            assert "4A9CD818E244F2C6B861F2B3C427E80F " in str(data.result)
+    task.run(task=napalm_validate, src=f"compliance/sshkeys.yml")
+
 
 def main():
 
-    # print_result(cpe_routers.run(task=configure_key, folded_key=subprocess_keys()))
+    print_result(cpe_routers.run(task=configure_key, folded_key=subprocess_keys()))
     print_result(cpe_routers.run(task=validation))
 
 

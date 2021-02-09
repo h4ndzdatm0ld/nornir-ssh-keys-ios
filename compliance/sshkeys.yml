@@ -1,0 +1,5 @@
+---
+- get_users:
+    cisco:
+        level: 15
+      

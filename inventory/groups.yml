@@ -8,7 +8,10 @@ IOS:
   connection_options:
     napalm:
       platform: ios
+      username: cisco
       extras:
         optional_args:
-          key_file: ~/.ssh/id_rsa
+          alt_host_keys: True
+          # key_file: ~/.ssh/id_rsa
+          alt_key_file: /home/cisco/.ssh/id_rsa
           use_keys: True

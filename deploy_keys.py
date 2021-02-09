@@ -80,22 +80,25 @@ def configure_key(task, folded_key: str):
     path = f"Output/{task.host.platform}"
     createFolder(path)
 
-    try:
-        for cmd in commands:
-            passwordless = task.run(
-                netmiko_send_command,
-                command_string=cmd,
-                use_timing=True,
-                delay_factor=1,
+    for cmd in commands:
+        passwordless = task.run(
+            netmiko_send_command,
+            command_string=cmd,
+            use_timing=True,
+            delay_factor=1,
+        )
+        write_file(
+            task,
+            filename=f"{path}/{task.name}-{task.host}.txt",
+            content=str(passwordless.result),
+            append=True,
+        )
+        if "%SSH: Maximum supported" in passwordless.result:
+            raise Exception(
+                f"{task.host}: \n %SSH: Maximum supported number of keyhash for user cisco is already configured"
             )
-            write_file(
-                task,
-                filename=f"{path}/{task.name}-{task.host}.txt",
-                content=str(passwordless.result),
-                append=True,
-            )
-    except Exception as e:
-        return e
+        else:
+            pass
 
 
 def validation(task):
